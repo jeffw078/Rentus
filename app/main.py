@@ -66,6 +66,81 @@ async def home(request: Request):
 async def modulo1_page(request: Request):
     return templates.TemplateResponse("modulo1.html", {"request": request})
 
+@app.get("/modulo2", response_class=HTMLResponse)
+async def modulo2_page(request: Request):
+    return templates.TemplateResponse("modulo2.html", {"request": request})
+
+
+@app.get("/modulo3", response_class=HTMLResponse)
+async def modulo3_page(request: Request):
+    return templates.TemplateResponse("modulo3.html", {"request": request})
+
+
+@app.get("/modulo4", response_class=HTMLResponse)
+async def modulo4_page(request: Request):
+    return templates.TemplateResponse("modulo4.html", {"request": request})
+
+
+@app.get("/modulo5", response_class=HTMLResponse)
+async def modulo5_page(request: Request):
+    return templates.TemplateResponse("modulo5.html", {"request": request})
+
+
+@app.get("/modulo6", response_class=HTMLResponse)
+async def modulo6_page(request: Request):
+    return templates.TemplateResponse("modulo6.html", {"request": request})
+
+
+@app.get("/modulo7", response_class=HTMLResponse)
+async def modulo7_page(request: Request):
+    return templates.TemplateResponse("modulo7.html", {"request": request})
+
+
+@app.get("/modulo8", response_class=HTMLResponse)
+async def modulo8_page(request: Request):
+    return templates.TemplateResponse("modulo8.html", {"request": request})
+
+
+@app.get("/modulo9", response_class=HTMLResponse)
+async def modulo9_page(request: Request):
+    return templates.TemplateResponse("modulo9.html", {"request": request})
+
+
+@app.get("/modulo10", response_class=HTMLResponse)
+async def modulo10_page(request: Request):
+    return templates.TemplateResponse("modulo10.html", {"request": request})
+
+
+@app.get("/modulo11", response_class=HTMLResponse)
+async def modulo11_page(request: Request):
+    return templates.TemplateResponse("modulo11.html", {"request": request})
+
+
+@app.get("/modulo12", response_class=HTMLResponse)
+async def modulo12_page(request: Request):
+    return templates.TemplateResponse("modulo12.html", {"request": request})
+
+
+@app.get("/modulo13", response_class=HTMLResponse)
+async def modulo13_page(request: Request):
+    return templates.TemplateResponse("modulo13.html", {"request": request})
+
+
+@app.get("/modulo14", response_class=HTMLResponse)
+async def modulo14_page(request: Request):
+    return templates.TemplateResponse("modulo14.html", {"request": request})
+
+
+@app.get("/modulo15", response_class=HTMLResponse)
+async def modulo15_page(request: Request):
+    return templates.TemplateResponse("modulo15.html", {"request": request})
+
+
+@app.get("/modulo16", response_class=HTMLResponse)
+async def modulo16_page(request: Request):
+    return templates.TemplateResponse("modulo16.html", {"request": request})
+
+
 
 # ============================================================
 # PROCESSAMENTO — MÓDULO 1
