@@ -61,6 +61,15 @@ def create_logger(prefix: str, run_id: str):
 async def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
+@app.get("/dashboard", response_class=HTMLResponse)
+async def modulo16_page(request: Request):
+    return templates.TemplateResponse("dashboard.html", {"request": request})
+
+
+@app.get("/mapping", response_class=HTMLResponse)
+async def modulo16_page(request: Request):
+    return templates.TemplateResponse("mapping.html", {"request": request})
+
 
 @app.get("/modulo1", response_class=HTMLResponse)
 async def modulo1_page(request: Request):
@@ -139,6 +148,8 @@ async def modulo15_page(request: Request):
 @app.get("/modulo16", response_class=HTMLResponse)
 async def modulo16_page(request: Request):
     return templates.TemplateResponse("modulo16.html", {"request": request})
+
+
 
 
 
