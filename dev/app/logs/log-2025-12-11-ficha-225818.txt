@@ -1,3 +1,0 @@
-[INFO] Iniciando análise de Ficha Presença
-[INFO] Arquivo salvo: C:\Users\Jefferson\Desktop\Rentus\RENTUS ANALYZER\app\uploads\FP_INPUT.xlsx
-[INFO] Executando processamento...
